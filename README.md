@@ -56,9 +56,11 @@ These are descriptive subgroup comparisons. They do not control for other employ
 
 ## Power BI dashboard
 
-The completed dashboard contains four KPI cards and six charts: Job Satisfaction, Age, Tenure, Work-Life Balance, Monthly Income and Distance From Home. A definition beside the high-risk KPI states all three segment conditions.
+![Healthcare Employee Attrition Power BI Dashboard](figures/powerbi_dashboard.png)
 
-The report was built in Power BI Desktop. A public interactive link is not available. This repository focuses on the Python analysis; the dashboard is a separate reporting layer of the same project.
+The Power BI dashboard summarizes employee attrition through four KPI cards and six charts covering job satisfaction, age, tenure, work-life balance, monthly income, and distance from home. The high-risk segment definition appears beside its KPI card.
+
+Python/Pandas was used to analyze the data and identify employee segments. Power BI used DAX to calculate dashboard KPIs from the employee-level data, with Python results used to verify the numbers. The screenshot below shows the completed dashboard built in Power BI Desktop.
 
 ## Python charts
 
